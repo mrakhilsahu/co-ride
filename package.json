@@ -1,0 +1,20 @@
+{
+  "name": "co-ride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrakhilsahu/co-ride.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrakhilsahu/co-ride/issues"
+  },
+  "homepage": "https://github.com/mrakhilsahu/co-ride#readme"
+}
