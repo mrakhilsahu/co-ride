@@ -9,7 +9,7 @@ const initialState = {
     message: ''
 };
 
-
+                                      
 export const getUserProfile = createAsyncThunk('user/getProfile', async (_, thunkAPI) => {
     try {
         const token = thunkAPI.getState().auth.user.token;
@@ -28,6 +28,7 @@ export const updateUserProfile = createAsyncThunk('user/updateProfile', async (u
         // Dispatch an action to update the auth slice as well
         thunkAPI.dispatch(updateUserAuthData(response.data));
         return response;
+
     } catch (error) {
         const message = (error.response?.data?.error) || error.message || error.toString();
         return thunkAPI.rejectWithValue(message);
